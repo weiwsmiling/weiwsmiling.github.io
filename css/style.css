@@ -9865,3 +9865,43 @@ a.text-dark:hover, a.text-dark:focus {
   list-style-type: none;
 }
 
+/* ================================
+   Lab Album – CSS-only Slides
+   ================================ */
+
+#Album .album-slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+
+  gap: 40px;
+  padding: 10px 0 30px 0;
+
+  scrollbar-width: none; /* Firefox */
+}
+
+#Album .album-slides::-webkit-scrollbar {
+  height: 0; /* Chrome / Safari */
+}
+
+#Album .album-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+  padding: 0 15%;
+}
+
+#Album .album-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+#Album .album-caption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
