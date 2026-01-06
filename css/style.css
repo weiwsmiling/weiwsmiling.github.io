@@ -9884,3 +9884,19 @@ a.text-dark:hover, a.text-dark:focus {
   color: #555;
   line-height: 1.4;
 }
+/* 横向滚动容器 */
+.lab-album-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 10px 0 20px 0;
+  -webkit-overflow-scrolling: touch;
+
+  /* 隐藏滚动条（Firefox） */
+  scrollbar-width: none;
+}
+
+/* 隐藏滚动条（Chrome / Safari / Edge） */
+.lab-album-scroll::-webkit-scrollbar {
+  display: none;
+}
+
