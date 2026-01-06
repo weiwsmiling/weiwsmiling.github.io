@@ -9950,9 +9950,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #Album .album-prev {
-  left: 20px;
+  left: calc(15% - 22px);
 }
 
 #Album .album-next {
-  right: 20px;
+  right: calc(15% - 22px);
 }
