@@ -9945,12 +9945,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #Album .album-prev {
-  left: 0;
+  left: 15%;
   transform: translate(-50%, -50%);
 }
 
 #Album .album-next {
-  right: 0;
+  right: 15%;
   transform: translate(50%, -50%);
 }
 
