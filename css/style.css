@@ -9913,15 +9913,10 @@ a.text-dark:hover, a.text-dark:focus {
   scroll-behavior: smooth;
   position: relative;
 }
-
-/* 按钮容器 */
-#Album .album-nav {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  pointer-events: none;
+#Album .album-slide {
+  position: relative;
 }
+
 
 /* 左右按钮 */
 #Album .album-prev,
@@ -9950,9 +9945,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #Album .album-prev {
-  left: calc(15% - 22px);
+  left: 0;
+  transform: translate(-50%, -50%);
 }
 
 #Album .album-next {
-  right: calc(15% - 22px);
+  right: 0;
+  transform: translate(50%, -50%);
 }
+
