@@ -9864,3 +9864,23 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0;
   list-style-type: none;
 }
+.lab-album-carousel .album-item {
+  padding: 10px;
+}
+
+.lab-album-carousel img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.lab-album-carousel img:hover {
+  transform: scale(1.05);
+}
+.album-caption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
